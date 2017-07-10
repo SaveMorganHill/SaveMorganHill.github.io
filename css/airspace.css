@@ -149,17 +149,34 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #intro .block p {
   color: #7B7B7B;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 #intro .block img {
   padding-left: 40px;
   width: 100%;
+  padding-top: 100px;
 }
 #intro .section-title {
   margin-bottom: 0px;
 }
 #intro .section-title p {
   padding-top: 20px;
+}
+#intro .counter-box li {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin: 30px 0 30px;
+}
+#intro .counter-box li i {
+  font-size: 35px;
+}
+#intro .counter-box li h4 {
+  font-size: 30px;
+  font-weight: bold;
+}
+#intro .counter-box li span {
+  color: #555;
 }
 /*--
 	service Start
@@ -267,6 +284,10 @@ font header .navbar-default .navbar-nav li a:hover {
   background: #655E7A;
   color: #fff;
   padding: 10px 20px;
+}
+#feature td {
+    color: #8d8f92;
+    padding: 0px 5px
 }
 /*--
 	content Start
